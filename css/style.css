@@ -1739,10 +1739,10 @@ header .navbar {
 
 .float{
   position:fixed;
-  width:40px;
-  height:40px;
-  bottom:20px;
-  right:20px;
+  width:60px;
+  height:60px;
+  bottom:10px;
+  right:10px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
