@@ -114,14 +114,7 @@
         }
 
         // To the top
-        $self.click(function (e) {
-            e.preventDefault();
-
-            $('html, body').animate({
-                scrollTop: scrollTarget
-            }, o.scrollSpeed, o.easingType);
-        });
-    };
+   
 
     // Defaults
     $.fn.scrollUp.defaults = {
