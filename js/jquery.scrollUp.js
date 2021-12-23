@@ -2,7 +2,8 @@
     'use strict';
 
     // Main function
-  
+   $.fn.scrollUp = function (options) {
+
         // Ensure that only one scrollUp exists
         if (!$.data(document.body, 'scrollUp')) {
             $.data(document.body, 'scrollUp', true);
